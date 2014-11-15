@@ -1,0 +1,4 @@
+C:\Users\m i c r o    R\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Wakatime\VSPackageWakaTime\1.0\\VSPackageWakaTime.dll
+C:\Users\m i c r o    R\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Wakatime\VSPackageWakaTime\1.0\\VSPackageWakaTime.pkgdef
+C:\Users\m i c r o    R\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Wakatime\VSPackageWakaTime\1.0\\extension.vsixmanifest
+C:\Users\m i c r o    R\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Wakatime\VSPackageWakaTime\1.0\\VSPackageWakaTime.pdb
