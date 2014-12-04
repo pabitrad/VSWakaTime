@@ -6,6 +6,7 @@ E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\bin\Debug\extensi
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\VSPackageWakaTime.csprojResolveAssemblyReference.cache
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\VSPackageWakaTime.csproj.ResolveComReference.cache
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\VSPackage.resources
+E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\Wakatime.VSPackageWakaTime.APIKeyForm.resources
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\Wakatime.VSPackageWakaTime.Resources.resources
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\VSPackageWakaTime.csproj.GenerateResource.Cache
 E:\Projects\Odesk\Wakatime\VSPackageWakaTime\VSPackageWakaTime\obj\Debug\VSPackageWakaTime.cto

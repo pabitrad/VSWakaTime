@@ -34,6 +34,24 @@
     group; your package should define its own command set in order to avoid collisions  
     with command ids defined by other packages. -->
 
+    <Menus>
+      <!--<Menu guid="guidVSPackageWakaTimeCmdSet"
+        id="TopLevelMenu" priority="0x700" type="Menu">
+        <Parent guid="guidSHLMainMenu"
+                id="IDM_VS_MENU_TOOLS" />
+        <Strings>
+          <ButtonText>Wakatime</ButtonText>
+        </Strings>
+      </Menu>-->
+
+      <Menu guid="guidVSPackageWakaTimeCmdSet" id="SubMenu"
+        priority="0x0100" type="Menu">
+        <Parent guid="guidVSPackageWakaTimeCmdSet" id="MyMenuGroup"/>
+        <Strings>
+          <CommandName>Wakatime</CommandName>
+        </Strings>
+      </Menu>
+    </Menus>
     
     <!-- In this section you can define new menu groups. A menu group is a container for 
          other menus or buttons (commands); from a visual point of view you can see the 
@@ -44,9 +62,10 @@
       <Group guid="guidVSPackageWakaTimeCmdSet" id="MyMenuGroup" priority="0x0600">
         <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
       </Group>
-      
 
-
+      <Group guid="guidVSPackageWakaTimeCmdSet" id="SubMenuGroup" priority="0x0000">
+        <Parent guid="guidVSPackageWakaTimeCmdSet" id="SubMenu"/>
+      </Group>
     </Groups>
     
     <!--Buttons section. -->
@@ -61,16 +80,22 @@
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
 
-      <Button guid="guidVSPackageWakaTimeCmdSet" id="cmdidUpdateAppKey" priority="0x0100" type="Button">
+      <!--<Button guid="guidVSPackageWakaTimeCmdSet" id="cmdidUpdateAppKey" priority="0x0100" type="Button">
         <Parent guid="guidVSPackageWakaTimeCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>UpdateAppKey</ButtonText>
+          <ButtonText>App Key</ButtonText>
+        </Strings>
+      </Button>-->
+
+      <Button guid="guidVSPackageWakaTimeCmdSet" id="cmdidUpdateAppKey" priority="0x0000" type="Button">
+        <Parent guid="guidVSPackageWakaTimeCmdSet" id="SubMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic2" />
+        <Strings>
+          <CommandName>cmdidUpdateAppKey</CommandName>
+          <ButtonText>App Key</ButtonText>
         </Strings>
       </Button>
-
-
-
     </Buttons>
    
     <!--The bitmaps section is used to define the bitmaps that are used for the commands.-->
@@ -96,8 +121,8 @@
     
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidVSPackageWakaTimeCmdSet" value="{054caf12-7fba-40d1-8dc8-bd69f838b910}">
-
       <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="TopLevelMenu" value="0x1021"/>
       <IDSymbol name="SubMenu" value="0x1100"/>
       <IDSymbol name="SubMenuGroup" value="0x1150"/>
       <IDSymbol name="cmdidUpdateAppKey" value="0x0100" />
